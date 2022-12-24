@@ -1,5 +1,5 @@
 echo "Cloning Repo...."
-git clone https://github.com/Subebaman/mdiskbot.git /mdiskbot
+git clone https://github.com/Aman12334/mdiskbot.git /mdiskbot
 cd /mdiskbot
 pip3 install -r requirements.txt
 echo "Starting Bot...."
