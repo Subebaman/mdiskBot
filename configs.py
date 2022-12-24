@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "9287448"))
-    API_HASH = os.getenv("API_HASH", "0207aebe77851944a622f01e174f6733")
+    API_ID = int(os.getenv("API_ID", "11118910"))
+    API_HASH = os.getenv("API_HASH", "f34ac9cba12e70a0854390de5e8ebd20")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5656566709:AAEFke0pG7sxCRgwSvI6N236rerhDoS2sqQ")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskV3bot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHIBuxs0FGl4k_m9-uvUwYkC0LJ-M-k9IDx1v_Uux-PBjEFEwdBDINA-A1hkzxwHgrohQvq6iefKn3xyq-gLelo_dLJIbqQd7sra12HF94tfTnJyhgPWDNNc5OJkzPqAc1Ykz-MRknf9nu0Yz6PfNN4LoP5B4j5gqj9nPEvqKB8NPCUDb5pC0IyXpgHqGzpN2_t1t1dTbrYnqhllFtQCHlNfOthU62tHJe4cOCmj9bkjbs2gwsdFualzIfNAz7OEbn_1M0SAtIj00E4Tp5tQsviTG5ZmlydF066MpKLRFfVg9zy2RJigAYFTAKAIWv-73U8qTw5IcFBuDJq3MQ8SMuEIGtY=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJUBu0B4SQO2mgMqRZNogtZEORIpbH8Vg97U2cmABjQ8VrBKASzClcb49Ut7x9u1677GNq181XckgCxRTPwCzrZ3s0HCnX7rhaDDoasD5Kq5ZidR_WnYmwEmMAfSspATYQ3t5mz0SWwioBPE0vioFkj0DLFokyFnlep5q_-4CuXmIhyAfc_sIETnrfh3WM67DVval8cr_JPE1c4_fMjJRgGi9Wf_RZRVeI5iZP_VKd4-OjgsqeqcNXwFxl2gSdTymyanfnFgWxRCJEudYwbSzOT-Q4YQ3sVhcCVfql5NqHxqBrkzwbrIRwspA3vnexjO-ENqJlOCR5rLXan3jsRolojL5mU=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001818861339")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "MdiskV2searchbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "2115791009"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "leviofficiall")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5194795175"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Aman12334")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "moviesgallerybackup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
