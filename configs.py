@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "11118910"))
-    API_HASH = os.getenv("API_HASH", "f34ac9cba12e70a0854390de5e8ebd20")
+    API_ID = int(os.getenv("API_ID", "11690063"))
+    API_HASH = os.getenv("API_HASH", "69e0dc3c92e1fc12e0498df38cf0c4d2")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5640013003:AAG_FyPqo73HMS8LU3i5QsYF200tpXkdrqM")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskV5sbot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLMBu1DvNK1uvPwRi6mvdHNu2plJ8BNT2xT587_Bf2iHLG887-3r-YOk3UMylRK3hTGxim8x47txzqon2l5oE_aydHcv7xmukc7RWbtSE55ivcMg2WGpPasBjeBviXoXXPg7oj-7rCh5SSGR5QruPnv8f6tDowUtZ3gKQT3r_T7HwbeXwmT236AIshKf_tXtTm7ebLz0Q3VQI8DA_zDys22IGCIlSKG2tZcQnZ4vbAEDD3xxJoqP4zkV7x3YiU2hVT1zNIQrw1MBoVf2Ast53qfI439MJ7UW1IletEY28FO6hLyTT-c9sR_LHNxQFGk6PS-oQNKcpeStVfSbBJMYYnuThNc=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOGgBu5RshCX-2WcdfroL7TIhmmfmxQN5FTTjxgsf-S8ySQ6t3DK_P5YrYJSGVJJ6zdt2tuC1nXVZHU5eueYBhGPuxPe1Hd2SMh3furkgVamBb727FB3jvzVd7Q4RipWeJTuNsAUBYK5TQc7Ys68gKcfTYsqEnwlFYEPxOHcJ0SLm66hLLT3yzMRvnXgRpwvUMjSZYWbnzzByLHxujmoqczWEx75UJ4-6fHCmrOaNe18pitapsaT09T7j0O4txpH5MLFtdg7_Fq38aPqw-8LUixAkrfENcVaAl76KZiVCQ1yCOzwL-Kr-O8NRBw0ZOXZSjQMgcoDAzEk76J7ZdpP2gd7EoeI=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001891479880")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "MdiskV5sbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5194795175"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Aman12334")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "moviesgallerybackup")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5946887654"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@Iram8595")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "moviebackup123")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,12 +29,12 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001543410185")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001720067645")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://subeb786:subeb786@cluster0.fwu4itk.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001855399173"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001371250963"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "moviesgallerybackup")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "moviebackup123")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "KGy9evikFEFPYHAp7yhM")
