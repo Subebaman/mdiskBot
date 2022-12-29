@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /MdiskV5sbot
-WORKDIR /MdiskV5sbot
+RUN mkdir /MdiskV8bot
+WORKDIR /MdiskV8bot
 COPY start.sh /start.sh
 
 # Running MessageSearchBot
