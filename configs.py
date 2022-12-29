@@ -7,13 +7,13 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "11690063"))
     API_HASH = os.getenv("API_HASH", "69e0dc3c92e1fc12e0498df38cf0c4d2")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5918101783:AAFUEnrBr-Ed_t8ZdaK875qk8iwjwzRBafE")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5841151149:AAHZcwMQBBmbqWrL9u6oxHOHhV1jxKL5APw")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskV5sbot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOGgBu5RshCX-2WcdfroL7TIhmmfmxQN5FTTjxgsf-S8ySQ6t3DK_P5YrYJSGVJJ6zdt2tuC1nXVZHU5eueYBhGPuxPe1Hd2SMh3furkgVamBb727FB3jvzVd7Q4RipWeJTuNsAUBYK5TQc7Ys68gKcfTYsqEnwlFYEPxOHcJ0SLm66hLLT3yzMRvnXgRpwvUMjSZYWbnzzByLHxujmoqczWEx75UJ4-6fHCmrOaNe18pitapsaT09T7j0O4txpH5MLFtdg7_Fq38aPqw-8LUixAkrfENcVaAl76KZiVCQ1yCOzwL-Kr-O8NRBw0ZOXZSjQMgcoDAzEk76J7ZdpP2gd7EoeI=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001891479880")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "MdiskV8bot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5946887654"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@Iram8595")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5287177581"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "RehAnsar123")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "moviebackup123")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
